@@ -200,8 +200,8 @@ export default function StackAuditor() {
             transition={{ duration: 0.5 }}
             className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
           >
-            Paste your tools. See what&apos;s redundant,<br className="hidden sm:block" />
-            what&apos;s missing, what&apos;s costing you.
+            {"Paste your tools. See what's redundant,"}<br className="hidden sm:block" />
+            {"what's missing, what's costing you."}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -8 }}
