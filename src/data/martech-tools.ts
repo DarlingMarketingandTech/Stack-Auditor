@@ -2129,7 +2129,7 @@ export function detectGaps(selectedIds: string[]): GapWarning[] {
   if (!hasCRM) {
     gaps.push({
       category: 'crm',
-      message: 'No CRM detected — you\'re likely losing leads',
+      message: "No CRM detected — you're likely losing leads",
       recommendation:
         'Without a CRM you have no systematic way to track leads or deals. HubSpot CRM has a generous free tier.',
       suggestedTools: ['hubspot', 'pipedrive', 'salesforce'],
@@ -2143,7 +2143,7 @@ export function detectGaps(selectedIds: string[]): GapWarning[] {
   if (!hasAttribution) {
     gaps.push({
       category: 'attribution',
-      message: 'No attribution tool — you can\'t measure true ROI',
+      message: "No attribution tool — you can't measure true ROI",
       recommendation:
         'Without attribution you cannot tell which channels are driving revenue. Start with Google Analytics 4 Goals or Triple Whale for ecommerce.',
       suggestedTools: ['ga4', 'triple-whale', 'northbeam'],
